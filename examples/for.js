@@ -21,7 +21,7 @@ for (var i = concepts.length - 1; i >= 0; i--) {
     newString += ', '
   }
 }
-
+// "Associative Arrays, Arrays, Parameters, Variables, Functions, Conditional Statements, Loops"
 console.log('newString', newString)
 
 /**
@@ -29,7 +29,8 @@ console.log('newString', newString)
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
  **/
 
-const newString2 = concepts.join(', ')
+const newString2 = concepts.join(', ').reverse()
+// "Associative Arrays, Arrays, Parameters, Variables, Functions, Conditional Statements, Loops"
 console.log('newString2:', newString2)
 
 /** For/in loop **/
@@ -55,5 +56,5 @@ let classAges = []
 for (var s in students) {
   classAges.push(students[s].age)
 }
-
+// [18, 20, 19, 17]
 console.log('ages', classAges)
