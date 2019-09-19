@@ -1,3 +1,22 @@
+/** VARIABLES **/
+
+// I am immutable
+const foo = 1;
+/**
+ * Error when trying to manipulate const
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment
+ **/
+// This is commented out so this file can run
+// foo += 1
+
+// I am mutable
+let bar = 1;
+bar += 1;
+
+console.log(bar);
+// 2
+
+
 /** FOR LOOPS **/
 
 /** For loop  **/
