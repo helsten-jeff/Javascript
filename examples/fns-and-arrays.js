@@ -1,3 +1,4 @@
+// See this working at https://codepen.io/jhelst/pen/gOYqbEZ?editors=0012
 const people = [
   {
     name: "stan",
