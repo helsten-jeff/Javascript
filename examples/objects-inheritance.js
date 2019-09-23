@@ -1,4 +1,5 @@
- /** OBJECT CREATION */
+// See this working at https://codepen.io/jhelst/pen/ExYOaLb 
+/** OBJECT CREATION */
 
 const user = {
   id: 343434343,
